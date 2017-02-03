@@ -1,0 +1,19 @@
+{
+    "name": "psaunders/dd",
+    "description": "Dump and Die",
+    "type": "library",
+    "require": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paige Saunders",
+            "email": "psaunders@turbulent.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "files": ["src/load.php"]
+  }
+}
