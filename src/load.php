@@ -32,6 +32,8 @@ if (! function_exists('dd')) {
      */
     function dd()
     {
+        http_response_code(500);
+
         array_map(function ($x) {
             dump($x);
         }, func_get_args());
