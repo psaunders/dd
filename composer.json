@@ -5,11 +5,16 @@
     "require": {
         "symfony/var-dumper": "^3.2"
     },
+    "config": {
+        "platform": {
+            "php": "^5.5.9"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
             "name": "Paige Saunders",
-            "email": "psaunders@turbulent.ca"
+            "email": "psaunders@sosnewmedia.com"
         }
     ],
     "minimum-stability": "dev",
